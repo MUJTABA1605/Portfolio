@@ -1,0 +1,434 @@
+    * {
+        box-sizing: border-box;
+    }
+
+    .container {
+        margin-left: 110px;
+        margin-right: 20px;
+    }
+
+    /* .main-one {
+        width: 90%;
+        float: left;
+        color: rgb(179, 179, 178);
+        background-color: rgb(250, 248, 248);
+        border: 1px solid white;
+        box-shadow: 5px 5px 5px 5px whitesmoke;
+    } */
+
+    /* .main-one h1 {
+        padding-left: 5px;
+    } */
+
+    .main-two {
+        width: 90%;
+        float: left;
+        padding-top: 25px;
+        padding-bottom: 8px;
+        padding-left: 5px;
+        background-color: white;
+        border: 1px solid white;
+        box-shadow: 5px 5px 5px 5px whitesmoke;
+    }
+
+    .img-one {
+        width: 2%;
+        float: left;
+    }
+
+    .part-one {
+        width: 23%;
+        float: left;
+    }
+
+    .part-one h3 {
+        margin-top: 0px;
+        padding-left: 3px;
+    }
+
+    .menu {
+        width: 52%;
+        float: left;
+    }
+
+    .menu a {
+        text-decoration: none;
+        padding-right: 45px;
+        float: left;
+        color: rgb(32, 31, 31);
+    }
+
+    .menu ul {
+        margin: 0;
+    }
+
+    .menu li {
+        list-style: none;
+    }
+
+    .part-two {
+        width: 20%;
+        float: left;
+    }
+
+    .images {
+        padding-right: 25px;
+    }
+
+    .main-three {
+        width: 90%;
+        float: left;
+        background-image: url(img/alexandra-gorn-JIUjvqe2ZHg-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .part-three {
+        width: 40%;
+        padding-left: 17px;
+        margin-right: 35px;
+        margin-top: 5rem;
+        float: right;
+        border: 1px solid none;
+        background-color: rgb(253, 239, 222);
+        margin-bottom: 5rem;
+    }
+
+    .part-three h5 {
+        margin-bottom: 3px;
+        font-style: italic;
+    }
+
+    .part-three h1 {
+        margin-top: 0px;
+        color: rgb(188, 136, 59);
+        margin-bottom: 5px;
+    }
+
+    .part-three p {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    .btn {
+        width: 34%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        background-color: rgb(188, 136, 59);
+        border: none;
+        margin-bottom: 20px;
+    }
+
+    .main-four {
+        width: 90%;
+        float: left;
+        padding-top: 20px;
+        background-color: white;
+        border: 1px solid white;
+        box-shadow: 5px 5px 5px 5px whitesmoke;
+    }
+
+    .main-four h1 {
+        text-align: center;
+        margin-bottom: 2px;
+    }
+
+    .main-four p {
+        text-align: center;
+        margin-top: 0px;
+        padding-bottom: 20px;
+    }
+
+    .part-four {
+        width: 90%;
+        float: left;
+        margin-left: 95px;
+        padding-right: 85px;
+        padding-top: 10px;
+    }
+
+    .part-four-a {
+        width: 31%;
+        float: left;
+    }
+
+    .part-four-a p {
+        padding-top: 10px;
+    }
+
+    .part-four-b {
+        width: 31%;
+        float: left;
+    }
+
+    .part-four-b p {
+        text-align: left;
+        padding-top: 10px;
+        padding-left: 95px;
+    }
+
+    .part-four-c {
+        width: 38%;
+        float: left;
+    }
+
+    .part-four-c p {
+        text-align: left;
+        padding-top: 10px;
+        padding-left: 95px;
+    }
+
+    .part-five-a {
+        width: 22%;
+        margin-right: 20px;
+        float: left;
+        position: relative;
+        border: 1px solid none;
+        background-color: whitesmoke;
+        padding-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .part-five-a .hover-content {
+        display: none;
+        position: absolute;
+        /* background-color: rgba(0, 0, 0, 0.5);
+        top: 40%;
+        left: 0;
+        width: 100%;
+        height: 100%; */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .part-five-a .hover-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        /* Light black background */
+        z-index: 1;
+    }
+
+    .part-five-a:hover .hover-content {
+        display: block;
+    }
+
+    .hover-button {
+        background-color: white;
+        /* Button background color */
+        color: rgb(188, 136, 59);
+        /* Button text color */
+        border: none;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        cursor: pointer;
+        /* font-size: 16px; */
+        display: flex;
+    }
+
+    .hover-button i {
+        margin-right: 8px;
+        /* Adjust icon margin */
+        /* Add additional icon styling here */
+    }
+
+    .part-five-a h3 {
+        margin-top: 0px;
+        margin-bottom: 2px;
+        padding-left: 8px;
+        float: left;
+    }
+
+    .part-five-a p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 2px;
+        float: left;
+        padding-left: 8px;
+    }
+
+    .btn-two {
+        width: 20%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 300px;
+        margin-top: 20px;
+        background-color: white;
+        color: rgb(188, 136, 59);
+        border: 1px solid rgb(188, 136, 59);
+        margin-bottom: 20px;
+    }
+
+    .part-six {
+        width: 90%;
+        float: left;
+        background-color: antiquewhite;
+    }
+
+    .part-six-a {
+        width: 41%;
+        padding-left: 90px;
+        float: left;
+    }
+
+    .part-six-a h1 {
+        text-align: left;
+        padding-top: 90px;
+    }
+
+    .part-six-a p {
+        text-align: left;
+        margin-bottom: 5px;
+    }
+
+    .part-six-b {
+        width: 25%;
+        float: left;
+        padding-top: 20px;
+    }
+
+    .part-six-c {
+        padding-top: 20px;
+    }
+
+    .part-seven {
+        width: 90%;
+        float: left;
+        padding-bottom: 20px;
+    }
+
+    .part-seven h3 {
+        margin-bottom: 2px;
+        text-align: center;
+    }
+
+    .part-seven h1 {
+        margin-top: 0px;
+    }
+
+    .pic-one {
+        width: 6%;
+        float: left;
+        margin-right: 3px;
+    }
+
+    .pic-two {
+        width: 29%;
+        float: left;
+        margin-top: 39px;
+    }
+
+    .pic-three {
+        width: 21%;
+        float: left;
+        margin-top: 85px;
+    }
+
+    .pic-four {
+        width: 21%;
+        float: left;
+        margin-top: 50px;
+    }
+
+    .pic-five {
+        width: 22%;
+        float: left;
+        margin-top: 10px;
+    }
+
+    .pic-six {
+        width: 100%;
+        float: left;
+    }
+
+    .pic-seven {
+        width: 100%;
+        float: left;
+        margin-left: 50px;
+    }
+
+    .pic-eight {
+        width: 68%;
+        float: left;
+    }
+
+    .pic-nine {
+        width: 21%;
+        float: left;
+    }
+
+    .part-eight {
+        width: 90%;
+        float: left;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        background-color: white;
+    }
+
+    .part-eight-a {
+        width: 37%;
+        float: left;
+        padding-left: 50px;
+        padding-top: 5px;
+    }
+
+    .part-eight-a h2 {
+        margin-bottom: 40px;
+    }
+
+    .part-eight-a p {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        color: rgb(199, 198, 198);
+    }
+
+    .part-eight-b {
+        width: 17%;
+        float: left;
+        padding-top: 17px;
+    }
+
+    .part-eight-b p {
+        padding-bottom: 12px;
+    }
+
+    .para {
+        color: rgb(199, 198, 198);
+    }
+
+    .part-eight-c {
+        width: 22%;
+        float: left;
+        padding-top: 17px;
+    }
+
+    .part-eight-c p {
+        padding-bottom: 12px;
+    }
+
+    .part-eight-d {
+        width: 20%;
+        float: left;
+        padding-top: 17px;
+    }
+
+    .para-one {
+        border: none;
+        border-bottom: 1px solid black;
+    }
+
+    .part-nine {
+        width: 90%;
+        float: left;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 3px;
+    }
